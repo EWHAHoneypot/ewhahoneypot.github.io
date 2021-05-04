@@ -28,3 +28,4 @@ gem "jekyll", "~> 4.2.0"
 
 gem 'wdm', '>= 0.1.1'
 ```
+#### ```$bundle install```로 필요한 패키지 설치
