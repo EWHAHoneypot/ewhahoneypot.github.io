@@ -1,13 +1,10 @@
-name: Herring Cove
-author: Herring Cove
+name: Honeypot
+author: Honeypot
+title : Ewha-Honeypot
 url : "https://ewhahoneypot.github.io"
 baseurl : ""
-description: theme for jekyll
-github: http://www.github.com/arnp
-twitter: http://www.twitter.com/
-facebook: http://www.facebook.com
-linkedin: http://www.linkedin.com
-email: rnpatel[at]me.com
+description: Technical Blog for Honeypot
+
 location: 42°2'16"N   70°12'47"W
 disqus: diqus-username
 remote_theme : arnp/herring-cove
@@ -15,8 +12,8 @@ remote_theme : arnp/herring-cove
 ##Make sure to edit the above fields, especially for disqus.
 
 
-highlighter: pygments
-markdown: redcarpet
+highlighter: rouge
+markdown: kramdown
 redcarpet:
   extensions: ["tables"]
 
