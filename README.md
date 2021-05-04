@@ -29,3 +29,5 @@ gem "jekyll", "~> 4.2.0"
 gem 'wdm', '>= 0.1.1'
 ```
 #### ```$bundle install```로 필요한 패키지 설치
+#### * Ruby 3.0.0 이상 버전에서 redcarpet error : _config.yml 에서 markdown: kramdown 으로 수정
+#### * Ruby 3.0.0 이상 버전에서 webrick error : Ruby 3.0.0 이상 버전에서는 webrick이 기본적으로 포함되지 않아서 생기는 문제. ```$bundle add webrick```으
