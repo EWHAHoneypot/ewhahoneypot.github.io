@@ -4,8 +4,8 @@ title: All Posts
 
 <ul class="posts-list">
   
-  {% default: page.title %}
-  {% for post in site.categories[Deeplearning] %}
+  {% assign category = page.category | default: page.title %}
+  {% for post in site.categories[category] %}
     <li>
       <h3>
         <a href="{{ site.baseurl }}{{ post.url }}">
