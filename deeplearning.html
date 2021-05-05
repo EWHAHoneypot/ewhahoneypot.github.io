@@ -2,7 +2,10 @@
 title: All Posts
 ---
 
-{% for post in site.categories[Deeplearning] %}
+<ul class="posts-list">
+  
+  {% default: page.title %}
+  {% for post in site.categories[Deeplearning] %}
     <li>
       <h3>
         <a href="{{ site.baseurl }}{{ post.url }}">
@@ -12,3 +15,5 @@ title: All Posts
       </h3>
     </li>
   {% endfor %}
+  
+</ul>
